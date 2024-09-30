@@ -1,12 +1,6 @@
-```console
-         _                                  _                        
-        | |                                | |                       
-   ___  | |__     __ _   _ __ ___     ___  | |   ___    ___    _ __  
-  / __| | '_ \   / _` | | '_ ` _ \   / _ \ | |  / _ \  / _ \  | '_ \ 
- | (__  | | | | | (_| | | | | | | | |  __/ | | |  __/ | (_) | | | | |
-  \___| |_| |_|  \__,_| |_| |_| |_|  \___| |_|  \___|  \___/  |_| |_|
-```
-**Chameleon** is a simple port spoofing tool written in Python that allows you to simulate various services on common ports (HTTP, SSH, SMTP, HTTPS) by sending fake banners. This can be useful for testing and educational purposes, especially in network security scenarios.
+# Chameleon
+
+**Chameleon** is a simple port spoofing tool written in Python that allows you to simulate various services on common ports (HTTP, FTP, SMTP, and SSH) by sending fake banners. This can be useful for testing and educational purposes, especially in network security scenarios.
 
 
 ```bash
