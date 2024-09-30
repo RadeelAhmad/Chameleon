@@ -84,7 +84,7 @@ Connection from ('127.0.0.1', 58066) established.
 ```
 
 <p align="center">
-    <img src="images/2.png" alt="image1">
+    <img src="images/3.png" alt="image1">
 </p>
 
 ```bash
@@ -109,3 +109,7 @@ Waiting for port 90 to be free...
 SSH is now running on port 90...
 Connection from ('127.0.0.1', 50228) established.
 ```
+
+<p align="center">
+    <img src="images/4.png" alt="image1">
+</p>
