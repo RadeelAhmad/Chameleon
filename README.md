@@ -83,6 +83,10 @@ Connection from ('127.0.0.1', 33200) established.
 Connection from ('127.0.0.1', 58066) established.
 ```
 
+<p align="center">
+    <img src="images/2.png" alt="image1">
+</p>
+
 ```bash
          _                                  _                        
         | |                                | |                       
