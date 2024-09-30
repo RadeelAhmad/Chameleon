@@ -50,6 +50,10 @@ FTP is now running on port 90...
 Connection from ('127.0.0.1', 57336) established.
 ```
 
+<p align="center">
+    <img src="images/2.png" alt="image1">
+</p>
+
 ```bash
          _                                  _                        
         | |                                | |                       
