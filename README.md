@@ -26,6 +26,9 @@ Connection from ('127.0.0.1', 37434) established.
 Connection from ('127.0.0.1', 50788) established.
 ```
 
+<p align="center">
+    <img src="images/1.png" alt="image1">
+</p>
 
 ```bash
          _                                  _                        
