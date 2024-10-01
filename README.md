@@ -31,22 +31,18 @@ cd Chameleon
 
 - Run the script:
 
-bash
-Copy code
-python3 fake_service_emulator.py
-Running the Script
-Enter the port number on which you want to run the fake service.
-Select the service you want to simulate by entering the corresponding number.
-The script will kill any existing process running on the chosen port and start simulating the service.
-Example
+```bash
+python3 Code.py
+```
 
+## Running the Script
+- Enter the port number on which you want to run the fake service.
+- Select the service you want to simulate by entering the corresponding number.
+- The script will kill any existing process running on the chosen port and start simulating the service.
 
+## Example
 
-
-
-
-
-# HTTP
+#### HTTP
 ```bash
          _                                  _                        
         | |                                | |                       
@@ -158,3 +154,7 @@ Connection from ('127.0.0.1', 50228) established.
 <p align="center">
     <img src="images/4.png" alt="image1">
 </p>
+
+## Notes
+- **Port Permission:** If you plan to use a port below 1024, ensure you run the script as a superuser (using `sudo`).
+- **Process Killing:** The script will attempt to terminate any process occupying the specified port before starting the service. Use with caution on production machines.
