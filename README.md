@@ -2,6 +2,49 @@
 
 **Chameleon** is a simple port spoofing tool written in Python that allows you to simulate various services on common ports (HTTP, FTP, SMTP, and SSH) by sending fake banners. This can be useful for testing and educational purposes, especially in network security scenarios.
 
+## Features
+- **Port Check & Process Kill:** Automatically checks if the specified port is in use, and kills any process running on that port.
+- Service Simulation: Simulates a variety of common services, including HTTP, FTP, SMTP, and SSH, and responds with fake banners.
+- User Input: Takes user input to select the service to simulate and the port number to listen on.
+- Connection Handling: Accepts incoming connections, sends the relevant banner, and then closes the connection.
+- Easy to Use: Simple CLI interface for selecting service and port.
+
+
+## Services
+The script can simulate the following services:
+
+HTTP - Responds with an HTTP/1.1 200 OK message.
+FTP - Sends a 220 FTP welcome message.
+SMTP - Sends a 220 ESMTP banner.
+SSH - Sends an SSH-2.0 OpenSSH banner.
+Usage
+Requirements
+Python 3.x
+lsof (required for killing processes on Linux systems)
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/fake-service-emulator.git
+cd fake-service-emulator
+Run the script:
+
+bash
+Copy code
+python3 fake_service_emulator.py
+Running the Script
+Enter the port number on which you want to run the fake service.
+Select the service you want to simulate by entering the corresponding number.
+The script will kill any existing process running on the chosen port and start simulating the service.
+Example
+
+
+
+
+
+
+
 # HTTP
 ```bash
          _                                  _                        
