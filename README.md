@@ -11,13 +11,13 @@
 
 ## Services
 The script can simulate the following services:
-- HTTP - Responds with an HTTP/1.1 200 OK message.
-- FTP - Sends a 220 FTP welcome message.
-- SMTP - Sends a 220 ESMTP banner.
-- SSH - Sends an SSH-2.0 OpenSSH banner.
+- **HTTP** - Responds with an HTTP/1.1 200 OK message.
+- **FTP** - Sends a 220 FTP welcome message.
+- **SMTP** - Sends a 220 ESMTP banner.
+- **SSH** - Sends an SSH-2.0 OpenSSH banner.
 
 ## Usage
-Requirements
+### Requirements
 Python 3.x
 lsof (required for killing processes on Linux systems)
 Installation
