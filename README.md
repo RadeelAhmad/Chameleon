@@ -25,8 +25,8 @@ The script can simulate the following services:
 - Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fake-service-emulator.git
-cd fake-service-emulator
+git clone https://github.com/RadeelAhmad/Chameleon.git
+cd Chameleon
 ```
 
 - Run the script:
