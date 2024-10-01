@@ -18,16 +18,18 @@ The script can simulate the following services:
 
 ## Usage
 ### Requirements
-Python 3.x
-lsof (required for killing processes on Linux systems)
-Installation
-Clone the repository:
+- Python 3.x
+- `lsof` (required for killing processes on Linux systems)
 
-bash
-Copy code
+## Installation
+- Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/fake-service-emulator.git
 cd fake-service-emulator
-Run the script:
+```
+
+- Run the script:
 
 bash
 Copy code
