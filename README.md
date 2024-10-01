@@ -9,15 +9,14 @@
 - **Connection Handling:** Accepts incoming connections, sends the relevant banner, and then closes the connection.
 - **Easy to Use:** Simple CLI interface for selecting service and port.
 
-
 ## Services
 The script can simulate the following services:
+- HTTP - Responds with an HTTP/1.1 200 OK message.
+- FTP - Sends a 220 FTP welcome message.
+- SMTP - Sends a 220 ESMTP banner.
+- SSH - Sends an SSH-2.0 OpenSSH banner.
 
-HTTP - Responds with an HTTP/1.1 200 OK message.
-FTP - Sends a 220 FTP welcome message.
-SMTP - Sends a 220 ESMTP banner.
-SSH - Sends an SSH-2.0 OpenSSH banner.
-Usage
+## Usage
 Requirements
 Python 3.x
 lsof (required for killing processes on Linux systems)
