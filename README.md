@@ -137,6 +137,8 @@ Connection from ('127.0.0.1', 58066) established.
     <img src="images/3.png" alt="image1">
 </p>
 
+---
+
 ## For SSH
 ```bash
          _                                  _                        
@@ -165,6 +167,8 @@ Connection from ('127.0.0.1', 50228) established.
 <p align="center">
     <img src="images/4.png" alt="image1">
 </p>
+
+---
 
 ## Notes
 - **Port Permission:** If you plan to use a port below 1024, ensure you run the script as a superuser (using `sudo`).
