@@ -41,8 +41,8 @@ python3 Code.py
 - The script will kill any existing process running on the chosen port and start simulating the service.
 
 # Example
-
-## HTTP
+> Select the desired option.
+##  For HTTP
 ```bash
          _                                  _                        
         | |                                | |                       
@@ -72,7 +72,9 @@ Connection from ('127.0.0.1', 50788) established.
     <img src="images/1.png" alt="image1">
 </p>
 
-## FTP
+---
+
+## For FTP
 ```bash
          _                                  _                        
         | |                                | |                       
@@ -98,7 +100,9 @@ Connection from ('127.0.0.1', 57336) established.
     <img src="images/2.png" alt="image1">
 </p>
 
-## SMTP
+---
+
+## For SMTP
 ```bash
          _                                  _                        
         | |                                | |                       
@@ -133,7 +137,7 @@ Connection from ('127.0.0.1', 58066) established.
     <img src="images/3.png" alt="image1">
 </p>
 
-## SSH
+## For SSH
 ```bash
          _                                  _                        
         | |                                | |                       
