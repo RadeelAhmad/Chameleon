@@ -40,7 +40,7 @@ python3 Code.py
 - Select the service you want to simulate by entering the corresponding number.
 - The script will kill any existing process running on the chosen port and start simulating the service.
 
-## Example
+# Example
 
 ## HTTP
 ```bash
@@ -67,6 +67,7 @@ Connection from ('127.0.0.1', 37434) established.
 Connection from ('127.0.0.1', 50788) established.
 ```
 
+## NMAP Scan:
 <p align="center">
     <img src="images/1.png" alt="image1">
 </p>
@@ -92,6 +93,7 @@ FTP is now running on port 90...
 Connection from ('127.0.0.1', 57336) established.
 ```
 
+## NMAP Scan:
 <p align="center">
     <img src="images/2.png" alt="image1">
 </p>
@@ -126,6 +128,7 @@ Connection from ('127.0.0.1', 33200) established.
 Connection from ('127.0.0.1', 58066) established.
 ```
 
+## NMAP Scan:
 <p align="center">
     <img src="images/3.png" alt="image1">
 </p>
@@ -154,6 +157,7 @@ SSH is now running on port 90...
 Connection from ('127.0.0.1', 50228) established.
 ```
 
+## NMAP Scan:
 <p align="center">
     <img src="images/4.png" alt="image1">
 </p>
