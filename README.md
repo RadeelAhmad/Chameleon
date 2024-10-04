@@ -19,7 +19,7 @@ The script can simulate the following services:
 ## Usage
 ### Requirements
 - Python 3.x
-- `lsof` (required for killing processes on Linux systems)
+- `lsof` (required for killing processes on Linux systems).
 
 ## Installation
 - Clone the repository:
